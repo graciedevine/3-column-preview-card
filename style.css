@@ -12,15 +12,62 @@
   box-sizing: border-box;
 }
 
-.attribution {
-  font-size: 15px;
-  text-align: center;
-}
-.attribution a {
+a {
   color: hsl(228, 45%, 44%);
+  text-decoration: none;
 }
 
-font {
+h1 {
   font-family: "Big Shoulders Display", sans-serif;
+  color: var(--very-light-gray);
+}
+
+p {
   font-family: "Lexend Deca", sans-serif;
+  font-size: 15px;
+  color: var(--transparent-white);
+}
+.learn-more {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 15px;
+  /* color: var(--transparent-white); */
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  background-color: var(--very-light-gray);
+}
+
+body {
+  min-height: 100vh;
+  padding: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  /* max-width: 350px;
+  padding: 24px; */
+  border-radius: 15px;
+  flex-direction: row;
+}
+
+.yellow-column {
+  background-color: var(--bright-orange);
+}
+
+.blue-column {
+  background-color: var(--dark-cyan);
+}
+
+.green-column {
+  background-color: var(--very-dark-cyan);
+}
+
+.attribution {
+  font-size: 15px;
+  position: fixed;
+  bottom: 20px;
 }
