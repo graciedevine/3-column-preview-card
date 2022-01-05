@@ -13,30 +13,33 @@
 }
 
 a {
-  color: hsl(228, 45%, 44%);
   text-decoration: none;
 }
 
 h1 {
   font-family: "Big Shoulders Display", sans-serif;
   color: var(--very-light-gray);
+  margin: 40px;
 }
 
 p {
   font-family: "Lexend Deca", sans-serif;
   font-size: 15px;
   color: var(--transparent-white);
+  line-height: 2;
+  padding: 0px 55px 80px 60px;
 }
+
 .learn-more {
   font-family: "Lexend Deca", sans-serif;
   font-size: 15px;
-  /* color: var(--transparent-white); */
 }
 
 .buttons {
   display: flex;
   align-items: center;
   background-color: var(--very-light-gray);
+  border-radius: 15px;
 }
 
 body {
@@ -45,13 +48,20 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: var(--very-light-gray);
 }
 
 .card {
-  /* max-width: 350px;
-  padding: 24px; */
+  max-width: 1200px;
+  padding: 100px;
   border-radius: 15px;
+}
+
+.wrapper {
+  display: flex;
   flex-direction: row;
+  border-radius: 15px;
+  width: 100%;
 }
 
 .yellow-column {
@@ -64,6 +74,10 @@ body {
 
 .green-column {
   background-color: var(--very-dark-cyan);
+}
+
+.icon {
+  margin: 40px 40px 0px;
 }
 
 .attribution {
