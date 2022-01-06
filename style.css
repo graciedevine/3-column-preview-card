@@ -27,12 +27,13 @@ p {
   font-size: 15px;
   color: var(--transparent-white);
   line-height: 2;
-  padding: 0px 55px 80px 60px;
+  padding: 0 1em 1em 2.5em;
 }
 
 .learn-more {
   font-family: "Lexend Deca", sans-serif;
   font-size: 15px;
+  text-align: center;
 }
 
 .buttons {
@@ -40,6 +41,9 @@ p {
   align-items: center;
   background-color: var(--very-light-gray);
   border-radius: 15px;
+  padding: 10px 10px 10px 10px;
+  margin: 2em 2em 2em 2em;
+  width: 45%;
 }
 
 body {
@@ -54,26 +58,29 @@ body {
 .card {
   max-width: 1200px;
   padding: 100px;
-  border-radius: 15px;
 }
 
 .wrapper {
   display: flex;
   flex-direction: row;
-  border-radius: 15px;
   width: 100%;
 }
 
 .yellow-column {
   background-color: var(--bright-orange);
+  border-radius: 15px 0 0 15px;
+  padding: 0 0 1em 0;
 }
 
 .blue-column {
   background-color: var(--dark-cyan);
+  padding: 0 5em 5em 2em;
 }
 
 .green-column {
   background-color: var(--very-dark-cyan);
+  border-radius: 0 15px 15px 0;
+  padding: 0 5em 5em 2em;
 }
 
 .icon {
