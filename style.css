@@ -49,6 +49,7 @@ p {
 
 body {
   min-height: 100vh;
+  padding: 0.5em;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -118,4 +119,19 @@ body {
   font-size: 15px;
   position: fixed;
   bottom: 20px;
+}
+
+@media (max-width: 576px) {
+  .wrapper {
+    flex-direction: column;
+  }
+  .yellow-column {
+    border-radius: 15px 15px 0 0;
+  }
+  .green-column {
+    border-radius: 0 0 15px 15px;
+  }
+  /* .attribution {
+    position: fixed;
+  } */
 }
