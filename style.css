@@ -54,12 +54,12 @@ body {
   justify-content: center;
   align-items: center;
   background-color: var(--very-light-gray);
+  flex-direction: column;
 }
 
 .card {
   max-width: 900px;
   padding: auto;
-  padding-left: 70px;
 }
 
 .card-body {
@@ -116,12 +116,10 @@ body {
 }
 
 .attribution {
-  font-size: 15px;
-  position: fixed;
-  bottom: 20px;
+  margin: 1.5em 0;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 600px) {
   .wrapper {
     flex-direction: column;
   }
@@ -131,7 +129,4 @@ body {
   .green-column {
     border-radius: 0 0 15px 15px;
   }
-  /* .attribution {
-    position: fixed;
-  } */
 }
